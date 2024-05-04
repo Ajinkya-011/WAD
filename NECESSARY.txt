@@ -1,0 +1,108 @@
+1a. No commands Run index file
+
+1b. Run index file
+enter data on page
+after entering:
+inspect->application->local_storage
+
+
+		2a.
+ - For Pushing First File:
+  1. git --version
+  2. git init
+  3. git add .
+  4. git status
+  5. git remote add origin "link of your github repository"
+  6. git commit -m "any message"
+  7. If Prompted to authenticate the user, execute following commands:
+   7.1 git config --global user.email "your git hub email id"
+     7.2 git config --global user.name "Your git hub user name"
+    8. git push -u origin master
+    9. git status
+    Now, check your github repository (refresh the page) whether the file is pushed or not.
+
+ - For Pushing Second File:
+  1. git add .
+  2. git status
+  3. git commit -m "any message"
+  4. git push -u origin master
+    5. git status
+    Now, check your github repository (refresh the page)  whether the file is pushed or not.
+
+
+						2b.
+ #Install Docker Desktop
+ #Run desktop app 
+ #Run cmd 
+
+docker -v
+
+docker ps
+
+docker images
+
+#visit Docker hub
+
+#search openjdk
+
+docker run --name JAVA -it -d openjdk
+
+docker exec -it JAVA jshell
+
+System.out.println("Hello World!");
+
+\exit
+
+docker ps
+
+docker stop <ID>
+
+docker rm <ID>
+
+
+2c.
+
+npm install -g @angular/cli
+ng new my-angular-app
+cd my-angular-app
+
+
+npm install
+
+ng serve
+
+
+3A.
+npm init
+npm install express --save
+
+create index.html and index.js file
+###################################
+#ha code index.js mdhey liha
+
+
+
+index.js: 
+const express = require('express');
+const app = express();
+
+// Serve static files from the 'public' directory
+app.use(express.static('public'));
+
+// Start the server on port 4000
+app.listen(4000, () => {
+    console.log("Server Has Started on PORT: 4000");
+});
+
+
+##############
+
+node index.js
+
+
+
+4A:
+
+
+RUN index.html file
+Inspect page and resize the page to show fixed ratios
